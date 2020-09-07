@@ -49,7 +49,7 @@ print(smaller, bigger)
 def lucky_number(name):
   number = len(name) * 9
   return "Hello " + name + ". Your lucky number is " + str(number)
-  ___
+
 	    
 print(lucky_number("Kay"))
 print(lucky_number("Cameron"))
