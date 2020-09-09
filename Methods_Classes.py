@@ -16,7 +16,6 @@ class Elevator:
         """Makes the elevator go to the specific floor."""
         if floor <= self.top and floor >= self.bottom:
             self.current = floor
-
     def __str__(self):
         return "Current floor: {}".format(self.current)
 
