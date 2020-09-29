@@ -66,3 +66,10 @@ def calculate_frequencies(file_contents):
     cloud = wordcloud.WordCloud()
     cloud.generate_from_frequencies(frequencies)
     return cloud.to_array()
+
+    # Display your wordcloud image
+
+myimage = calculate_frequencies(file_contents)
+plt.imshow(myimage, interpolation = 'nearest')
+plt.axis('off')
+plt.show()
